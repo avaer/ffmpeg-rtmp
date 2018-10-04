@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/modulesio/ffmpeg-rtmp/issues"
   },
-  "homepage": "https://github.com/modulesio/ffmpeg-rtmp#readme"
+  "homepage": "https://github.com/modulesio/ffmpeg-rtmp#readme",
+  "dependencies": {
+    "native-video-deps": "0.0.30"
+  }
 }
