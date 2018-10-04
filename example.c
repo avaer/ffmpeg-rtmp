@@ -5,7 +5,7 @@
 
 // #include <opencv2/highgui.hpp>
 // #include <opencv2/video.hpp>
-#include "clipp.h"
+// #include "clipp.h"
 
 extern "C" {
 #include <libavformat/avformat.h>
@@ -15,7 +15,7 @@ extern "C" {
 #include <libswscale/swscale.h>
 }
 
-using namespace clipp;
+// using namespace clipp;
 // using namespace std::chrono;
 
 /* cv::VideoCapture get_device(int camID, double width, double height)
@@ -525,7 +525,7 @@ int main(int argc, char *argv[]) {
   std::string outputServer = "rtmp://127.0.0.1:1935/live/lol";
   bool dump_log = false;
 
-  auto cli = (
+  /* auto cli = (
     (option("-c", "--camera") & value("camera", cameraID)) % "camera ID (default: 0)",
     (option("-o", "--output") & value("output", outputServer)) % "output RTMP server (default: rtmp://127.0.0.1:1935/live/lol)",
     (option("-f", "--fps") & value("fps", fps)) % "frames-per-second (default: 30)",
@@ -540,7 +540,7 @@ int main(int argc, char *argv[]) {
   {
     std::cout << make_man_page(cli, argv[0]) << std::endl;
     return 1;
-  }
+  } */
 
   if (dump_log)
   {
