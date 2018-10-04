@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/modulesio/ffmpeg-rtmp#readme",
   "dependencies": {
-    "native-video-deps": "0.0.30"
+    "native-video-deps": "0.0.31"
   }
 }
